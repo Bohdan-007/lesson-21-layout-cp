@@ -143,3 +143,34 @@ h2 {
     margin-bottom: 10px !important;
   }
 }
+
+/* FOOTER */
+footer {
+  background-image: linear-gradient(
+    180deg,
+    hsl(0deg 0% 100%) 0%,
+    hsl(0deg 0% 98%) 7%,
+    hsl(0deg 0% 95%) 13%,
+    hsl(0deg 0% 93%) 20%,
+    hsl(0deg 0% 90%) 27%,
+    hsl(0deg 0% 87%) 33%,
+    hsl(0deg 0% 84%) 40%,
+    hsl(0deg 0% 81%) 47%,
+    hsl(0deg 0% 77%) 53%,
+    hsl(0deg 0% 74%) 60%,
+    hsl(0deg 0% 71%) 67%,
+    hsl(0deg 0% 67%) 73%,
+    hsl(0deg 0% 64%) 80%,
+    hsl(0deg 0% 60%) 87%,
+    hsl(0deg 0% 57%) 93%,
+    hsl(0deg 0% 53%) 100%
+  );
+}
+footer a:hover {
+  background-color: #b2b2b2;
+}
+@media (max-width: 992px) {
+  footer {
+    border-bottom: 1px solid #dee2e6;
+  }
+}
