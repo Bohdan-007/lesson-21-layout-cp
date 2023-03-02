@@ -108,3 +108,27 @@ h2 {
 .my-carg-gall-btn:hover {
   text-decoration: none;
 }
+
+/* FEATURES section */
+.my-features-row .col .card {
+  height: 100%;
+  transition: 0.5s;
+}
+.my-features-row .col .card:hover {
+  background-color: #e7e7e7;
+}
+@media (max-width: 992px) {
+  .my-features-row .col:nth-child(odd) .card {
+    border-right: 1px solid #dee2e6 !important;
+  }
+  .my-features-row .col:nth-child(2) .card,
+  .my-features-row .col:nth-child(4) .card {
+    border-bottom: 1px solid #dee2e6 !important;
+    border-right: none !important;
+  }
+}
+@media (max-width: 576px) {
+  .my-features-row .col .card {
+    border-bottom: 1px solid #dee2e6 !important;
+  }
+}
