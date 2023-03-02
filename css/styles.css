@@ -52,3 +52,32 @@ body {
   padding: 4px 8px;
   border: none;
 }
+
+/* HERO section */
+.card-title,
+h2 {
+  font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+.my-card-text {
+  text-align: justify;
+  line-height: 1.2;
+}
+.my-hero-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+@media (max-width: 767px) {
+  .my-card-row {
+    flex-direction: column-reverse !important;
+  }
+  .my-card-body-wrapper .card-body {
+    padding-top: 30px !important;
+  }
+}
+@media (max-width: 992px) {
+  .my-card-body-wrapper {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+}
