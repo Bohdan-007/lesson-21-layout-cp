@@ -132,3 +132,14 @@ h2 {
     border-bottom: 1px solid #dee2e6 !important;
   }
 }
+
+/* FORM section */
+@media (max-width: 576px) {
+  .my-form-radio {
+    flex-direction: column;
+  }
+  .my-form-radio > p {
+    margin-right: 0 !important;
+    margin-bottom: 10px !important;
+  }
+}
