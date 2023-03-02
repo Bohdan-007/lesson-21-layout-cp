@@ -1,0 +1,54 @@
+body {
+  font-family: "Times New Roman", Times, Baskerville, Georgia, serif !important;
+  overflow-x: hidden;
+}
+
+/* HEADER */
+/* logo */
+.my-logo:hover {
+  text-decoration: none;
+}
+@media (max-width: 576px) {
+  .my-logo {
+    font-size: 16px !important;
+  }
+}
+.my-site-nav li {
+  transition: 0.2s;
+}
+.my-site-nav li:hover {
+  background-color: #e7e7e7;
+  border-radius: 15px 0px !important;
+}
+.my-site-nav a:hover {
+  text-decoration: none;
+}
+/* social links */
+.my-nav-social i {
+  transition: 0.1s;
+}
+.my-nav-social li:nth-child(1) a:hover i {
+  color: #1a8cd8;
+}
+.my-nav-social li:nth-child(2) a:hover i {
+  color: #166fe5;
+}
+.my-nav-social li:nth-child(3) a:hover i {
+  color: #e95600;
+}
+.my-nav-social li:nth-child(4) a:hover i {
+  color: #f00;
+}
+.my-nav-social li:nth-child(5) a:hover i {
+  color: #eeb616;
+}
+@media (max-width: 850px) {
+  .my-nav-social {
+    display: none !important;
+  }
+}
+/* mobile nav btn */
+.my-nav-btn {
+  padding: 4px 8px;
+  border: none;
+}
